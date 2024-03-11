@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+p,
+a,
+li,
+figcaption {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 45px;
+  line-height: 1;
+}
+h2 {
+  font-size: 32px;
+  line-height: 1.1;
+}
+h3 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+#legenda-img {
+  font-size: 12px;
+  font-style: italic;
+}
+.cor-unica {
+  color: #0588c4;
+}
+em {
+  text-decoration: underline;
+  text-decoration-line: underline;
+}
+a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #c44105;
+  text-decoration: double;
+  text-decoration-line: underline;
+}
+
+ul {
+  font-style: italic;
+  color: #035276;
+}
