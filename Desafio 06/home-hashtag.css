@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.76rem;
+  font-size: 3.26rem;
   line-height: 1.1;
   font-weight: 400;
 }
@@ -448,6 +448,7 @@ nav {
 }
 
 .div-h2-blog {
+  width: max-content;
   background-image: linear-gradient(90deg, #feb914, #f6a50b);
   padding: 1.02rem 3.12rem;
 }
@@ -466,10 +467,46 @@ nav {
 }
 
 /* Seção Como ajudar */
+.section-comoajudar {
+  padding: 0;
+}
+
+.section-sec-ajudar-ciza,
+.section-sec-ajudar-laranja {
+  padding: 7.63rem 2rem;
+}
+
+.section-sec-ajudar-laranja {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-banner-07.png);
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.caixa-comoajudar-h2 {
+  display: inline-block;
+  padding: 0.7rem 3.5rem;
+  color: white;
+  border-radius: 0.1rem;
+  box-shadow: 0 8px 15px 2px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(90deg, #14a1d5, #1a8ad4);
+}
+
+.comoajudar-lista {
+  border-radius: 2.5rem;
+  box-shadow: inset 0 0 13px 2px rgba(0, 0, 0, 0.2);
+  padding: 2.5rem;
+  background-color: #f9f9f9;
+}
+
+.section-sec-ajudar-ciza {
+  background-color: #f4f5f7;
+}
 
 .comoajudar-lista,
 .comoajudar-paragrafo {
   font-size: 1.92rem;
+  line-height: 2.2;
 }
 
 .comoajudar-lista a,
