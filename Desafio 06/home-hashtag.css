@@ -55,6 +55,19 @@ ul {
   margin: 0 auto;
 }
 
+.caixa-conteudo-gratuito-h3,
+.div-h2-blog {
+  position: absolute; /*a caixa vai ficar na posição absoluta em relação a section*/
+  top: 0;
+  left: 50%;
+  display: inline-block;
+  padding: 0.42rem 1.6rem;
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0.8rem 1.5rem 0.4rem (0, 0, 0, 0.2);
+  transform: rotate(-2deg) translate(-50%, -50%); /*inclinação  e movimentação */
+}
+
 .botao {
   display: inline-block;
   font-size: 2.4rem;
@@ -155,15 +168,6 @@ nav {
 }
 
 .caixa-conteudo-gratuito-h3 {
-  position: absolute; /*a caixa vai ficar na posição absoluta em relação a section*/
-  top: 0;
-  left: 50%;
-  display: inline-block;
-  padding: 0.42rem 1.6rem;
-  color: white;
-  border-radius: 1rem;
-  box-shadow: 0 0.8rem 1.5rem 0.4rem (0, 0, 0, 0.2);
-  transform: rotate(-2deg) translate(-50%, -50%); /*inclinação  e movimentação */
   background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
 }
 
@@ -412,6 +416,53 @@ nav {
 
 .blog-descricaopost {
   font-size: 1.7rem;
+}
+
+/* Seção na mídia */
+
+.section-namidia {
+  padding-top: 3.9rem;
+  padding-bottom: 3.9rem;
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png);
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.seta-na-midia,
+.na-midia-h2 {
+  display: inline-block;
+}
+
+/* Seção Blog */
+
+.section-blog {
+  background-color: #f4f5f7;
+}
+.container-blog {
+  position: relative;
+  border-radius: 5rem;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  padding: 4.48rem;
+}
+
+.div-h2-blog {
+  background-image: linear-gradient(90deg, #feb914, #f6a50b);
+  padding: 1.02rem 3.12rem;
+}
+
+.div-post-blog {
+  display: inline-block;
+  border-radius: 2.5rem;
+  background-color: white;
+  box-shadow: inset 0 0 0.4rem 0rem rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  width: 49%;
+}
+
+.div-post-blog img {
+  width: 100%;
 }
 
 /* Seção Como ajudar */
