@@ -257,15 +257,61 @@ nav ul {
   background-size: cover;
 }
 
+.container-conteudos {
+  display: flex;
+  align-items: center;
+}
+
+.img-conteudos {
+  max-width: 47.8rem;
+  flex: 45;
+  position: relative;
+  left: 2rem;
+  z-index: 1;
+}
+
+.conteudos-colunas {
+  display: flex;
+  flex-flow: column;
+  gap: 3.9rem;
+  flex: 55;
+}
+
+.caixas-cursos-hashtags {
+  display: flex;
+  gap: 2.5rem;
+}
+
 .caixa-cursos-hashtag {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1.6rem;
   position: relative;
   box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
   border-radius: 2.5rem;
   padding: 2rem;
 }
 
+.caixa-cursos-hashtag ul {
+  display: flex;
+  flex-flow: column;
+  gap: 0.65rem;
+}
+
 .caixa-gratuito-h3 {
   background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+}
+
+.conteudo-titulo {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.conteudos-caixa-logos {
+  display: flex;
+  gap: 0.65rem;
 }
 
 .circulo-logo-curso {
@@ -282,10 +328,6 @@ nav ul {
   width: 100%;
 }
 
-.img-conteudos {
-  width: 44rem;
-}
-
 .gratuito-realce {
   color: #7a40be;
   font-weight: 600;
@@ -293,6 +335,11 @@ nav ul {
 
 .gratuito-h3 {
   font-weight: 700;
+}
+.gratuito-link-lista li {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
 }
 
 .gratuito-link-lista:link,
