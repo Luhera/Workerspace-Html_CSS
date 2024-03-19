@@ -92,6 +92,7 @@ input::placeholder {
 
 .botao {
   display: inline-block;
+  text-align: center;
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: none;
@@ -206,6 +207,11 @@ nav ul {
 }
 
 /* Seção Hero */
+.container-hero {
+  display: flex;
+  gap: 3.12rem;
+  align-items: center;
+}
 
 .secao-hero {
   background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
@@ -217,7 +223,6 @@ nav ul {
 .hero-botao {
   background-image: linear-gradient(180deg, #ff645e, #ff9253);
 }
-
 .hero-botao:hover {
   border: solid 0.2rem #ff9253;
   background-color: #ff9253;
@@ -225,12 +230,24 @@ nav ul {
 }
 
 .iframe-video {
-  display: none;
   aspect-ratio: 16/9;
   width: 42rem;
   border-radius: 2.5rem;
+  flex: 5;
 }
 
+.hero-coluna {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  flex: 6;
+}
+
+.hero-botoes {
+  display: flex;
+  flex-flow: column;
+  gap: 1.6rem;
+}
 /* Seção Conteúdos Gratuitos */
 
 .secao-conteudos {
