@@ -635,28 +635,41 @@ nav ul {
 /* Seção Blog */
 
 .container-blog {
+  display: flex;
+  flex-flow: row wrap;
   position: relative;
   background-color: #f9f9f9;
   padding: 4.88rem;
+  gap: 2.5rem;
+  padding-top: 7rem;
 }
 
 .caixa-blog-h2 {
+  top: -1rem;
   width: max-content;
   background-image: linear-gradient(90deg, #feb914, #f6a50b);
   padding: 1.02rem 3.12rem;
 }
 
 .caixa-postblog {
-  display: inline-block;
+  display: flex;
+  flex-flow: column;
+  gap: 1.18rem;
+  flex: 1 1 40%;
   border-radius: 2.5rem;
   box-shadow: inset 0 0 0.4rem 0.15rem rgba(0, 0, 0, 0.15);
   padding: 2rem;
-  width: 49%;
   background-color: #fff;
 }
 
 .caixa-postblog img {
   width: 100%;
+}
+
+.caixa-imgpostadoem {
+  display: flex;
+  flex-flow: column;
+  gap: 0.42rem;
 }
 
 .blog-postadoem {
