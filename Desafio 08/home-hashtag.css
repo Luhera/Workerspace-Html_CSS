@@ -780,6 +780,13 @@ nav ul {
   color: white;
 }
 
+.container-minicurso {
+  display: flex;
+  flex-flow: column;
+  gap: 3.12rem;
+  align-items: center;
+}
+
 .botao-minicurso {
   background-color: #ffba29;
   border-bottom-color: #664a10;
@@ -790,6 +797,22 @@ nav ul {
   border: solid 0.2rem #ffba29;
 }
 
+.form-minicurso {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: end;
+  align-self: stretch;
+}
+
+.form div {
+  display: flex;
+  flex-flow: column;
+  gap: 0.82rem;
+}
+.form div label {
+  margin-left: 0.5rem;
+}
 /* Rodapé */
 
 .logo-footer {
