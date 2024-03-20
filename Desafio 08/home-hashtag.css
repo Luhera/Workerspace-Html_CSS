@@ -813,10 +813,56 @@ nav ul {
 .form div label {
   margin-left: 0.5rem;
 }
+
 /* Rodapé */
+
+.container-rodape {
+  display: flex;
+  align-items: start;
+  gap: 4.88rem;
+}
 
 .logo-footer {
   width: 18rem;
+}
+
+.subsecao-rodape,
+.subsecao-cursosonline,
+.subsecao-assistente,
+.rodape-div-inconelink,
+.rodape-coluna {
+  display: flex;
+  flex-flow: column;
+}
+
+.rodape-coluna {
+  gap: 3.12rem;
+}
+
+.subsecao-rodape {
+  gap: 1.6rem;
+}
+
+.subsecao-cursosonline {
+  gap: 1.28rem;
+}
+.subsecao-assistente {
+  gap: 1.02rem;
+}
+
+.rodape-div-inconelink {
+  gap: 0.65rem;
+}
+
+.rodape-inconelink {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.rodape-redessocias {
+  display: flex;
+  gap: 0.82rem;
 }
 
 .rodape-titulo,
@@ -829,8 +875,17 @@ nav ul {
   color: #1a77a4;
 }
 
+.rodape-copyright {
+  text-align: center;
+}
+
 .rodape svg {
   width: 2.4rem;
+}
+
+.link-redessociais svg {
+  fill: #404040;
+  stroke: #404040;
 }
 
 .link-redessociais:hover svg {
@@ -851,6 +906,11 @@ nav ul {
 }
 
 .form-newsletter {
+  display: flex;
+  flex-flow: column;
+  gap: 1.6rem;
+  align-items: center;
+
   border-radius: 2.5rem;
   box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
   padding: 2.5rem;
